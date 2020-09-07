@@ -5,7 +5,10 @@
     font-weight: 400;
     font-style: normal
 }
-
+.row{
+    margin-left: 0px;
+    margin-right:0px;
+}
 .et-icon-browser,
 .et-icon-presentation,
 .et-icon-edit {
@@ -40,6 +43,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+    
 }
 
 a,
@@ -977,6 +982,7 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+        
     }
     h1,
     h2,
@@ -1119,9 +1125,11 @@ h4 {
 }
 
 @media (max-width: 400px) {
+    
     .bloc {
         padding-left: 10px;
         padding-right: 10px;
+        
     }
 }
 
@@ -1213,3 +1221,5 @@ bottom : 25px;
 right: 25px;
 opacity: 0.5;
 }
+
+
